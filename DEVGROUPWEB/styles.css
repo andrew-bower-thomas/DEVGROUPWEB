@@ -12,11 +12,12 @@ body {
 	display: flex;
 	flex-direction: column;
 	font-family: Roboto-Medium, Arial, sans-serif;
-	background-color: #ccefff;
+	background-color: #E8E8E8;
+	color: #252525;
 }
 
 .header {
-	background-image: url(florian-wehde-V4cHacmEnW8-unsplash1.jpg);
+	background-image: url(florian-wehde-V4cHacmEnW8-unsplash11.jpg);
 	height: 500px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -31,15 +32,12 @@ body {
 }
 
 .header-content h1 {
-	font-size: 7em;
-	font-style: italic;
+	font-size: 10em;
 	margin: 150px auto 0 auto;
-	text-shadow: -3px -3px 0 #000, 0 -3px 0 #000, 3px -3px 0 #000, 3px 0 0 #000, 3px 3px 0 #000, 0 3px 0 #000, -3px 3px 0 #000, -3px 0 0 #000;
 }
 
 .header-content p {
 	font-size: 1.5em;
-	text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
 }
 
 .header-link {
@@ -51,7 +49,7 @@ body {
 }
 
 .header-link:hover {
-	color: #ccefff;
+	color: #E8E8E8;
 }
 
 .section {
@@ -61,7 +59,7 @@ body {
 }
 
 .section-title {
-	background-color: #005780;
+	background-color: #252525;
 	color: white;
 	margin: 0;
 	font-weight: normal;
@@ -93,5 +91,14 @@ body {
 }
 
 .footer {
-	background-color: purple;
+	background-image: url(aerial-view-and-grayscale-photography-of-high-rise-buildings-1105766.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.footer-content {
+	text-align: center;
+	color: white;
 }

@@ -1,0 +1,92 @@
+﻿html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	font-family: Arial, sans-serif;
+	background-color: #ccefff;
+}
+
+.header {
+	background-image: url("florian-wehde-V4cHacmEnW8-unsplash1.jpg");
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.header-content {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+.header-content h1 {
+	font-size: 7em;
+	font-style: italic;
+	margin: 150px auto 0 auto;
+	text-shadow: -3px -3px 0 #000, 0 -3px 0 #000, 3px -3px 0 #000, 3px 0 0 #000, 3px 3px 0 #000, 0 3px 0 #000, -3px 3px 0 #000, -3px 0 0 #000;
+}
+
+.header-content p {
+	font-size: 1.5em;
+	text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
+}
+
+.header-link {
+	text-decoration: none;
+}
+
+.header-link:link, .header-link:visited {
+	color: white;
+}
+
+.header-link:hover {
+	color: #ccefff;
+}
+
+.section {
+	text-align: center;
+	margin: auto;
+	width: 100%;
+}
+
+.section-title {
+	font-style: italic;
+	background-color: #005780;
+	color: white;
+	margin: 0;
+}
+
+.section-content {
+	width: 95%;
+	margin: auto;
+}
+
+.profiles {
+	margin: auto;
+	padding: 10px;
+}
+
+.profile {
+	width: 350px;
+	display: inline-block;
+	margin: 0 10px 10px 10px;
+	text-align: center;
+}
+
+.profile-pic {
+	width: 50%;
+}
+
+#past-work ul {
+	text-align: left;
+}
+
+.footer {
+	background-color: purple;
+}

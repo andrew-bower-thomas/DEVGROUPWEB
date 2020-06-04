@@ -1,4 +1,9 @@
-﻿html {
+﻿@font-face {
+	font-family: Roboto-Medium;
+	src: url(Roboto-Medium.ttf);
+}
+
+html {
 	scroll-behavior: smooth;
 }
 
@@ -6,12 +11,12 @@ body {
 	margin: 0;
 	display: flex;
 	flex-direction: column;
-	font-family: Arial, sans-serif;
+	font-family: Roboto-Medium, Arial, sans-serif;
 	background-color: #ccefff;
 }
 
 .header {
-	background-image: url("florian-wehde-V4cHacmEnW8-unsplash1.jpg");
+	background-image: url(florian-wehde-V4cHacmEnW8-unsplash1.jpg);
 	height: 500px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -56,10 +61,10 @@ body {
 }
 
 .section-title {
-	font-style: italic;
 	background-color: #005780;
 	color: white;
 	margin: 0;
+	font-weight: normal;
 }
 
 .section-content {

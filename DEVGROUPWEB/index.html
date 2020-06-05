@@ -1,84 +1,197 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <title>DevGroup Consulting</title>
-    <link rel="stylesheet" href="styles.css">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="header">
-        <div class="header-content">
-            <h1>DevGroup</h1>
-            <p>
-                <a href="#what-we-do" class="header-link">What We Do</a> | <a href="#who-we-are" class="header-link">Who We Are</a> | <a href="#past-work" class="header-link">Past Work</a> | <a href="#contact-us" class="header-link">Contact Us</a>
-            </p>
-        </div>
-    </header>
-    <div class="section" id="what-we-do">
-        <h2 class="section-title">What We Do</h2>
-        <div class="section-content">
-            <p>
-                We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defense, promote the general Welfare, and
-                secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.
-            </p>
-            <p>
-                All legislative Powers herein granted shall be vested in a Congress of the United States, which shall consist of a Senate and House of Representatives. The House of Representatives shall be
-                composed of Members chosen every second Year by the People of the several States, and the Electors in each State shall have the Qualifications requisite for Electors of the most numerous
-                Branch of the State Legislature.
-            </p>
-        </div>
-    </div>
-    <div class="section" id="who-we-are">
-        <h2 class="section-title">Who We Are</h2>
-        <div class="section-content">
-            <div class="profile">
-                <h3>William McSherry</h3>
-                <img src="mona-lisa.jpg" class="profile-pic" />
-                <p>
-                    Great moments are born from great opportunity. And that's what you have here tonight, boys. That's what you've earned here, tonight. One game. If we played 'em ten times, they might win
-                    nine. But not this game. Not tonight. Tonight, we skate with 'em. Tonight, we stay with 'em, and we shut them down because we can!
-                </p>
-                <a href="https://www.nasa.gov/">LinkedIn Profile</a>
-            </div>
-            <div class="profile">
-                <h3>Andrew Thomas</h3>
-                <img src="mona-lisa.jpg" class="profile-pic" />
-                <p>
-                    Tonight, we are the greatest hockey team in the world. You were born to be hockey players -- every one of ya. And you were meant to be here tonight. This is your time. Their time -- is
-                    done. It's over. I'm sick and tired of hearin' about what a great hockey team the Soviets have. Screw 'em! This is your time!! Now go out there and take it!
-                </p>
-                <a href="https://www.espn.com/">LinkedIn Profile</a>
-            </div>
-        </div>
-    </div>
-    <div class="section" id="past-work">
-        <h2 class="section-title">Past Work</h2>
-        <div class="section-content">
-            <ul>
-                <li>
-                    You may think that I'm a dreamer / But I'm not the only one / I hope someday you'll join us / And the world will live as one
-                </li>
-                <li>
-                    There's nothing you can know that isn't known / Nothing you can see that isn't shown / There's nowhere you can be that isn't where you're meant to be / It's easy / All you need is love
-                    / All you need is love / All you need is love, love / Love is all you need
-                </li>
-                <li>
-                    Somewhere over the rainbow / Skies are blue / And the dreams that you dare to dream really do come true / If happy little bluebirds fly/  Beyond the rainbow / Why, oh why, can't I?
-                </li>
-                <li>
-                    If I can make it there / I'll make it anywhere / It's up to you / New York, New York
-                </li>
-            </ul>
-        </div>
-    </div>
-    <footer class="footer section" id="contact-us">
-        <h2 class="section-title">Contact Us</h2>
-        <div class="footer-content">
-            <p>
-                Email: devgroup@devgroup.com
-            </p>
-        </div>
-    </footer>
+
+	<div class="container">
+		<div class="logo">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Intel-logo.svg/2000px-Intel-logo.svg.png" alt="" width="130" />
+		</div>
+		<div class="tabs">
+			<button class="tablink" onclick="openPage('home', this, 'red')" id="defaultOpen">Home</button>
+			<button class="tablink" onclick="openPage('what-we-do', this, 'green')">What We Do</button>
+			<button class="tablink" onclick="openPage('who-we-are', this, 'blue')">Who We Are</button>
+			<button class="tablink" onclick="openPage('our-work', this, 'orange')">Our Work</button>
+			<button class="tablink" onclick="openPage('contact-us', this, 'orange')">Contact Us</button>
+		</div>
+	</div>
+
+	<div id="home" class="tabcontent">
+		<span style="font-size:10em">DevGroup</span>
+	</div>
+
+	<div id="what-we-do" class="tabcontent">
+			<h2 class="section-title">What We Do</h2>
+			<div class="section-content">
+				<p>
+					We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defense, promote the general Welfare, and
+					secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.
+				</p>
+				<p>
+					All legislative Powers herein granted shall be vested in a Congress of the United States, which shall consist of a Senate and House of Representatives. The House of Representatives shall be
+					composed of Members chosen every second Year by the People of the several States, and the Electors in each State shall have the Qualifications requisite for Electors of the most numerous
+					Branch of the State Legislature.
+				</p>
+			</div>
+	</div>
+
+	<div id="who-we-are" class="tabcontent">
+		<h2 class="section-title">Who We Are</h2>
+		<div class="section-content">
+			<div class="profile">
+				<h3>William McSherry</h3>
+				<img src="mona-lisa.jpg" class="profile-pic" />
+				<p>
+					Great moments are born from great opportunity. And that's what you have here tonight, boys. That's what you've earned here, tonight. One game. If we played 'em ten times, they might win
+					nine. But not this game. Not tonight. Tonight, we skate with 'em. Tonight, we stay with 'em, and we shut them down because we can!
+				</p>
+				<a href="https://www.nasa.gov/">LinkedIn Profile</a>
+			</div>
+			<div class="profile">
+				<h3>Andrew Thomas</h3>
+				<img src="mona-lisa.jpg" class="profile-pic" />
+				<p>
+					Tonight, we are the greatest hockey team in the world. You were born to be hockey players -- every one of ya. And you were meant to be here tonight. This is your time. Their time -- is
+					done. It's over. I'm sick and tired of hearin' about what a great hockey team the Soviets have. Screw 'em! This is your time!! Now go out there and take it!
+				</p>
+				<a href="https://www.espn.com/">LinkedIn Profile</a>
+			</div>
+		</div>
+	</div>
+
+	<div id="our-work" class="tabcontent">
+		<h2 class="section-title">Past Work</h2>
+		<div class="section-content">
+			<ul>
+				<li>
+					You may think that I'm a dreamer / But I'm not the only one / I hope someday you'll join us / And the world will live as one
+				</li>
+				<li>
+					There's nothing you can know that isn't known / Nothing you can see that isn't shown / There's nowhere you can be that isn't where you're meant to be / It's easy / All you need is love
+					/ All you need is love / All you need is love, love / Love is all you need
+				</li>
+				<li>
+					Somewhere over the rainbow / Skies are blue / And the dreams that you dare to dream really do come true / If happy little bluebirds fly/  Beyond the rainbow / Why, oh why, can't I?
+				</li>
+				<li>
+					If I can make it there / I'll make it anywhere / It's up to you / New York, New York
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="contact-us" class="tabcontent">
+		<h2 class="section-title">Contact Us</h2>
+		<div class="footer-content">
+			<p>
+				Email: devgroup@devgroup.com
+			</p>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+
 </body>
 </html>
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>DevGroup Consulting</title>
+	<link rel="stylesheet" href="styles.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+<body>
+	<div id="navigation"></div>
+	<script src="script.js"></script>
+</body>
+</html>-->
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>DevGroup Consulting</title>
+	<link rel="stylesheet" href="styles.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<header class="header">
+		<div class="header-content">
+			<h1>DevGroup</h1>
+			<p>
+				<a href="#what-we-do" class="header-link">What We Do</a> | <a href="#who-we-are" class="header-link">Who We Are</a> | <a href="#past-work" class="header-link">Past Work</a> | <a href="#contact-us" class="header-link">Contact Us</a>
+			</p>
+		</div>
+	</header>
+	<div class="section" id="what-we-do">
+		<h2 class="section-title">What We Do</h2>
+		<div class="section-content">
+			<p>
+				We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defense, promote the general Welfare, and
+				secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.
+			</p>
+			<p>
+				All legislative Powers herein granted shall be vested in a Congress of the United States, which shall consist of a Senate and House of Representatives. The House of Representatives shall be
+				composed of Members chosen every second Year by the People of the several States, and the Electors in each State shall have the Qualifications requisite for Electors of the most numerous
+				Branch of the State Legislature.
+			</p>
+		</div>
+	</div>
+	<div class="section" id="who-we-are">
+		<h2 class="section-title">Who We Are</h2>
+		<div class="section-content">
+			<div class="profile">
+				<h3>William McSherry</h3>
+				<img src="mona-lisa.jpg" class="profile-pic" />
+				<p>
+					Great moments are born from great opportunity. And that's what you have here tonight, boys. That's what you've earned here, tonight. One game. If we played 'em ten times, they might win
+					nine. But not this game. Not tonight. Tonight, we skate with 'em. Tonight, we stay with 'em, and we shut them down because we can!
+				</p>
+				<a href="https://www.nasa.gov/">LinkedIn Profile</a>
+			</div>
+			<div class="profile">
+				<h3>Andrew Thomas</h3>
+				<img src="mona-lisa.jpg" class="profile-pic" />
+				<p>
+					Tonight, we are the greatest hockey team in the world. You were born to be hockey players -- every one of ya. And you were meant to be here tonight. This is your time. Their time -- is
+					done. It's over. I'm sick and tired of hearin' about what a great hockey team the Soviets have. Screw 'em! This is your time!! Now go out there and take it!
+				</p>
+				<a href="https://www.espn.com/">LinkedIn Profile</a>
+			</div>
+		</div>
+	</div>
+	<div class="section" id="past-work">
+		<h2 class="section-title">Past Work</h2>
+		<div class="section-content">
+			<ul>
+				<li>
+					You may think that I'm a dreamer / But I'm not the only one / I hope someday you'll join us / And the world will live as one
+				</li>
+				<li>
+					There's nothing you can know that isn't known / Nothing you can see that isn't shown / There's nowhere you can be that isn't where you're meant to be / It's easy / All you need is love
+					/ All you need is love / All you need is love, love / Love is all you need
+				</li>
+				<li>
+					Somewhere over the rainbow / Skies are blue / And the dreams that you dare to dream really do come true / If happy little bluebirds fly/  Beyond the rainbow / Why, oh why, can't I?
+				</li>
+				<li>
+					If I can make it there / I'll make it anywhere / It's up to you / New York, New York
+				</li>
+			</ul>
+		</div>
+	</div>
+	<footer class="footer section" id="contact-us">
+		<h2 class="section-title">Contact Us</h2>
+		<div class="footer-content">
+			<p>
+				Email: devgroup@devgroup.com
+			</p>
+		</div>
+	</footer>
+</body>
+</html>-->

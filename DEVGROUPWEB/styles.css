@@ -3,6 +3,86 @@
 	src: url(Roboto-Medium.ttf);
 }
 
+* {
+}
+
+body {
+	font-family: Roboto-Medium, Arial, sans-serif;
+	background-color: black;
+	color: white;
+	background-image: url("florian-wehde-V4cHacmEnW8-unsplash.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.container {
+	clear: both;
+	overflow: auto;
+}
+
+
+.logo img {
+	float: left;
+}
+
+.tabs {
+	float: right;
+}
+
+/* Style tab links */
+.tablink {
+	background-color: #555;
+	float: left;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	font-size: 17px;
+	background-color: transparent;
+	transition: all 0.1s ease-in-out;
+	border-width: 0;
+	border-style: solid;
+	border-color: white;
+}
+
+.tablink:hover {
+	border-width: 0 0 1px 0;
+}
+
+.tablink.active {
+	border-width: 0 0 1px 0;
+}
+
+.tabcontent {
+	background-color: rgba(124, 124, 124, 0.9);
+	text-align: center;
+}
+
+#home {
+	background-color: transparent;
+}
+
+.profile {
+	width: 350px;
+	display: inline-block;
+	margin: 0 10px 10px 10px;
+	text-align: center;
+}
+
+.profile-pic {
+	width: 50%;
+}
+
+button {
+	
+}
+
+/*@font-face {
+	font-family: Roboto-Medium;
+	src: url(Roboto-Medium.ttf);
+}
+
 html {
 	scroll-behavior: smooth;
 }
@@ -101,4 +181,4 @@ body {
 .footer-content {
 	text-align: center;
 	color: white;
-}
+}*/
